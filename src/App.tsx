@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import classes from './App.module.css';
+import TodoApp from "./components/TodoApp/TodoApp";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <React.Fragment>
+            <TodoApp />
+            <footer className={classes.info}>
+                <p>Double-click to edit a todo</p>
+                <p>Created by <a href="http://github.com/remojansen/">Remo H. Jansen</a></p>
+                <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+            </footer>
+        </React.Fragment>
+    );
 }
 
 export default App;

@@ -1,0 +1,13 @@
+.info {
+    text-align: center;
+    margin: 65px auto 0;
+    color: #bfbfbf;
+    font-size: 10px;
+}
+
+.info a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
