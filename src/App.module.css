@@ -1,13 +1,16 @@
-.info {
-    text-align: center;
-    margin: 65px auto 0;
-    color: #bfbfbf;
-    font-size: 10px;
+.email {
+    position: absolute;
+    top: -140px;
 }
 
-.info a {
-    text-decoration: none;
-    color: inherit;
+.signin {
+    position: absolute;
+    top: -127px;
 }
 
+.register {
+    position: absolute;
+    top: -127px;
+    left: 60px;
+}
 

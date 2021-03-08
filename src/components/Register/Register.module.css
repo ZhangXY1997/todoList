@@ -1,0 +1,43 @@
+.register {
+    position: fixed;
+    z-index: 500;
+    background-color: whitesmoke;
+    width: 30%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 35%;
+    top: 25%;
+    transition: all 0.3s ease-out;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.unshow {
+    display: none;
+}
+
+.email label {
+    width: 28%;
+    display: inline-block;
+}
+
+.email {
+    margin: 10px 0;
+}
+
+.password label {
+    width: 28%;
+    display: inline-block;
+}
+
+.password {
+    margin: 10px 0;
+}
+
+.submit {
+    width: 57px;
+    margin: auto;
+    justify-content: center;
+}
+

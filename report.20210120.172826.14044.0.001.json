@@ -1,0 +1,377 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210120.172826.14044.0.001.json",
+    "dumpEventTime": "2021-01-20T17:28:26Z",
+    "dumpEventTimeStamp": "1611134906322",
+    "processId": 14044,
+    "cwd": "D:\\study\\TodoMVC\\myapp",
+    "commandLine": [
+      "D:\\software\\node\\node.exe",
+      "D:\\software\\webstorm\\webstorm\\WebStorm 2020.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\js-language-service.js",
+      "-id=1611134754843",
+      "-debug-name=typescript"
+    ],
+    "nodejsVersion": "v12.14.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Home China",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 5047796,
+        "nice": 0,
+        "sys": 5725265,
+        "idle": 63189734,
+        "irq": 1131875
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 3837859,
+        "nice": 0,
+        "sys": 2662078,
+        "idle": 67462531,
+        "irq": 71859
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 6976968,
+        "nice": 0,
+        "sys": 4582796,
+        "idle": 62402687,
+        "irq": 68390
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 5458343,
+        "nice": 0,
+        "sys": 3645453,
+        "idle": 64858671,
+        "irq": 68078
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 6122875,
+        "nice": 0,
+        "sys": 3967125,
+        "idle": 63872468,
+        "irq": 63328
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 5229312,
+        "nice": 0,
+        "sys": 3233125,
+        "idle": 65500031,
+        "irq": 51796
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 8104421,
+        "nice": 0,
+        "sys": 4592421,
+        "idle": 61265625,
+        "irq": 97796
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "speed": 1992,
+        "user": 9455625,
+        "nice": 0,
+        "sys": 5219062,
+        "idle": 59287781,
+        "irq": 70156
+      }
+    ],
+    "host": "DESKTOP-DTELS6F"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6fa751759",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fa755b7c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fa754b38",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fa84433b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb048c5e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb030ca1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6faefe56c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6faf06671",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6faefbcd3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6faefa4a4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6faf22333",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fad4965a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fac1291f",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fac4bedf",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb47463d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000020316327b08",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 233762816,
+    "totalCommittedMemory": 233762816,
+    "usedMemory": 230130544,
+    "availableMemory": 1968272072,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047472,
+        "available": 16
+      },
+      "old_space": {
+        "memorySize": 196980736,
+        "committedMemory": 196980736,
+        "capacity": 196720576,
+        "used": 194794704,
+        "available": 1925872
+      },
+      "code_space": {
+        "memorySize": 1998848,
+        "committedMemory": 1998848,
+        "capacity": 1900544,
+        "used": 1258656,
+        "available": 641888
+      },
+      "map_space": {
+        "memorySize": 1052672,
+        "committedMemory": 1052672,
+        "capacity": 1050592,
+        "used": 675840,
+        "available": 374752
+      },
+      "large_object_space": {
+        "memorySize": 32370688,
+        "committedMemory": 32370688,
+        "capacity": 32318024,
+        "used": 32318024,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 13.546,
+    "kernelCpuSeconds": 1.312,
+    "cpuConsumptionPercent": 9.83974,
+    "maxRss": 296513536,
+    "pageFaults": {
+      "IORequired": 182774,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2250,
+      "writes": 116
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\zxy\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-DTELS6F",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CUDA_PATH": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.0",
+    "CUDA_PATH_V10_0": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.0",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GRADLE_HOME": "D:\\software\\gradle\\gradle-6.3",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\zxy",
+    "IDEA_INITIAL_DIRECTORY": "D:\\software\\webstorm\\webstorm\\WebStorm 2020.1\\bin",
+    "JAVA_HOME": "D:\\software\\java",
+    "LOCALAPPDATA": "C:\\Users\\zxy\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-DTELS6F",
+    "MAVEN_HOME": "D:\\software\\maven\\apache-maven-3.6.3",
+    "MAVEN_OPTS": "-Xms128m -Xmx512m",
+    "NUMBER_OF_PROCESSORS": "8",
+    "NVCUDASAMPLES10_0_ROOT": "C:\\ProgramData\\NVIDIA Corporation\\CUDA Samples\\v10.0",
+    "NVCUDASAMPLES_ROOT": "C:\\ProgramData\\NVIDIA Corporation\\CUDA Samples\\v10.0",
+    "NVTOOLSEXT_PATH": "C:\\Program Files\\NVIDIA Corporation\\NvToolsExt\\",
+    "OneDrive": "C:\\Users\\zxy\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\zxy\\OneDrive",
+    "OPENNI2_INCLUDE64": "D:\\software\\vscode\\New Folder\\Include\\",
+    "OPENNI2_LIB64": "D:\\software\\vscode\\New Folder\\Lib\\",
+    "OPENNI2_REDIST64": "D:\\software\\vscode\\New Folder\\Redist\\",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.0\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.0\\libnvvp;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\software\\java\\bin;D:\\software\\sublime\\Sublime Text 3;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;D:\\software\\node\\;C:\\Program Files\\NVIDIA Corporation\\NVSMI;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\software\\vscode\\cmake\\bin;C:\\Users\\zxy\\AppData\\Roaming\\npm;D:\\software\\git\\Git\\cmd;D:\\software\\vscode\\pcl\\PCL 1.11.0\\bin;D:\\software\\vscode\\pcl\\PCL 1.11.0\\3rdParty\\FLANN\\bin;D:\\software\\vscode\\pcl\\PCL 1.11.0\\3rdParty\\Qhull\\bin;D:\\software\\vscode\\pcl\\PCL 1.11.0\\3rdParty\\VTK\\bin;D:\\software\\vscode\\pcl\\PCL 1.11.0\\3rdParty\\OpenNI2\\Tools;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\software\\python36\\Scripts\\;D:\\software\\python36\\;C:\\Users\\zxy\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\zxy\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\zxy\\AppData\\Roaming\\npm;C:\\Program Files\\NVIDIA Corporation\\NVSMI;D:\\software\\miktex\\miktex\\miktex\\bin\\x64\\;C:\\Users\\zxy\\AppData\\Local\\Pandoc\\;D:\\software\\postgresql\\sql\\bin;D:\\software\\heroku\\bin;D:\\software\\java\\bin;D:\\software\\maven\\apache-maven-3.6.3\\bin;D:\\software\\gradle\\gradle-6.3\\bin;D:\\software\\pycharm\\pycharm\\PyCharm Community Edition 2020.1\\bin;;D:\\software\\webstorm\\webstorm\\WebStorm 2020.1\\bin;;D:\\software\\git\\Git\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\software\\vscode\\Microsoft VS Code\\bin;D:\\software\\vscode\\mingw\\mingw64\\bin;D:\\software\\vscode\\pcl\\PCL 1.8.1\\bin;C:\\\\Users\\\\zxy\\\\AppData\\\\Roaming\\\\npm;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.DLL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e0a",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PyCharm Community Edition": "D:\\software\\pycharm\\pycharm\\PyCharm Community Edition 2020.1\\bin;",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\zxy\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\zxy\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-DTELS6F",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-DTELS6F",
+    "USERNAME": "zxy",
+    "USERPROFILE": "C:\\Users\\zxy",
+    "WebStorm": "D:\\software\\webstorm\\webstorm\\WebStorm 2020.1\\bin;",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "D:\\software\\node\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll"
+  ]
+}

@@ -86,3 +86,15 @@
     padding: 0;
     margin: 0;
 }
+
+.info {
+    text-align: center;
+    margin: 65px auto 0;
+    color: #bfbfbf;
+    font-size: 10px;
+}
+
+.info a {
+    text-decoration: none;
+    color: inherit;
+}

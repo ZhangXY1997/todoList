@@ -3,9 +3,9 @@ import classes from "./TodoApp.module.css";
 import TodoItem from "../TodoItem/TodoItem";
 import Footer from "../Footer/Footer";
 import {getTodoItemsFromLocalStorage} from "./getTodoItemsFromLocalStorage";
-import { HashRouter as Router } from 'react-router-dom';
-
-
+import Signin from "../Signin/Signin";
+import Register from "../Register/Register";
+import {Route, BrowserRouter as Router} from 'react-router-dom';
 
 
 export interface T {
@@ -22,6 +22,8 @@ const TodoApp = () => {
     const [nowShowing, setNowShowing] = useState<string>(getNowShowing());
     const [editText, setEditText] = useState<string>("");
     const [dbClick, setDbClick] = useState<boolean>(false);
+    const [signin, setSignin] = useState<boolean>(false);
+    const [register, setRegister] = useState<boolean>(false);
     const todoListRef = useRef<HTMLUListElement>(null);
 
     const destroyHandler = (todo: T) => {
@@ -102,6 +104,14 @@ const TodoApp = () => {
             setDbClick(false);
             localStorage.setItem("todo", JSON.stringify(todoList));
         }
+    }
+
+    const SigninHandler = () => {
+        setSignin(!signin);
+    }
+
+    const RegisterHandler = () => {
+        setRegister(!register);
     }
 
     function uuid(): string {
@@ -204,15 +214,24 @@ const TodoApp = () => {
     }
 
     return (
-        <section className={classes.todoapp}>
-            <header className={classes.header}>
-                <h1>todos</h1>
-                <input className={classes.newTodo} placeholder="What needs to be done?"
-                       onKeyDown={inputKeyDownHandler}/>
-            </header>
-            {main}
-            {footer}
-        </section>
+        <React.Fragment>
+            <section className={classes.todoapp}>
+                <header className={classes.header}>
+                    <h1>todos</h1>
+                    <input className={classes.newTodo} placeholder="What needs to be done?"
+                           onKeyDown={inputKeyDownHandler}/>
+                </header>
+
+                {main}
+                {footer}
+            </section>
+            <div className={classes.info}>
+                <p>Double-click to edit a todo</p>
+                <p>Created by <a href="http://github.com/remojansen/">Remo H. Jansen</a></p>
+                <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+            </div>
+        </React.Fragment>
+
     );
 }
 
